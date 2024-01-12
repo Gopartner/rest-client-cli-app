@@ -1,0 +1,28 @@
+{
+  "name": "rest-client-cli-app",
+  "version": "1.0.0",
+  "description": "REST client CLI app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "remote": "./remote-manager.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gopartner/rest-client-cli-app.git#Master"
+  },
+  "keywords": [
+    "Rest-client-cli"
+  ],
+  "author": "YUDI BILLY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gopartner/rest-client-cli-app/issues"
+  },
+  "homepage": "https://github.com/Gopartner/rest-client-cli-app/tree/Master#readme",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "readline-sync": "^1.4.10"
+  }
+}
